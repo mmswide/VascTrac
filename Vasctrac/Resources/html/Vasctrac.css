@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/** Regular */
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+a  {
+    color:#b91f4b;
+}
+
+
+a:active {
+    color:#b91f4b;
+    background-color: #ffffff;
+}
+
+body {
+    font-family: "San Francisco", sans-serif;
+    font-size:12pt;
+    color:#4A4A4A;
+    line-height:lighter;
+    font-weight:200;
+    padding-top:0px;
+    padding-bottom:20px;
+    text-align:center;
+}
+
+p,  h2 {
+    margin-top: 0;	 
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom:0px;
+}
+
+h1 {
+    font-family: "San Francisco", sans-serif;
+    font-size:17pt;
+    color:#4A4A4A;
+    line-height:normal; 
+    font-weight:normal;
+    padding-top:0px;
+    padding-bottom:0px;
+    text-align:center;
+}
+
+
+.footer {
+    background-color: #FFFFFF;
+    width: 10%;
+    margin: 0 auto;
+}
+
+p.image {
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+}
+
+.content {
+    padding: 0px 20px 0px 20px;
+}
+
+
+.content ul, .content ol { 
+    padding: 0 0px 0px 0px;
+}
+
+
+boldie
+{
+    font-family:'HelveticaNeue-Medium', 'Helvetica Neue Medium', Helvetica;
+    font-size:16pt;
+    color:#000000; 
+    line-height:normal; 
+    font-weight:normal;
+    padding-top:0px;
+    padding-bottom:0px;
+    
+}
+
+ul, ol {
+    font-family: "Helvetica Neue", 'HelveticaNeue', 'HelveticaNeue';
+    font-size:16pt;
+    color:#000000; 
+    list-style-type: round;
+    list-style-position: outside;
+    line-height:115%;
+    
+}
+
+.ExternalClass * {line-height: 100%}
